@@ -12,7 +12,7 @@ Tangle is an iterative one-way hash function designed to be secure, eﬃcient an
 
 Although the compression function natively accepts a 4096 bit long message block as input and produces a 1024 bit digest as output; six different digest sizes (224, 256, 384, 512, 768 and 1024 bits) are supported through output truncation. These variants basically diﬀer in the number of rounds (therefore in security level and execution time also) and the initial values but share the same compression function.
 
-It supports the same interface as SHA-2, accepting messages up to 2 128 bits in length and padding the message in a similar way to obtain a message with a length multiple of 4096 bits.
+It supports the same interface as SHA-2, accepting messages up to 2^128 bits in length and padding the message in a similar way to obtain a message with a length multiple of 4096 bits.
 
 It was designed with 32-bit microprocessors and little-endian memory organization in mind since they were the most common scenario but it is still implementable in different architectures with satisfactory results.
 
