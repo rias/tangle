@@ -18,7 +18,7 @@ It was designed with 32-bit microprocessors and little-endian memory organizatio
 
 ## Further work and citing
 
-There has been some further work done with Tangle, especially regarding the expansion scheme. You can cite the following articles if you publish something regarding Tangle:
+There has been some further work done with Tangle, especially regarding the expansion scheme. You can cite the following articles if you publish something related to Tangle:
 
 - *R. Alvarez, G. McGuire, A. Zamora*: **"The Tangle Hash Function"**. <br>Submission to the NIST SHA-3 Competition, 2008 [link][tangle]
 - *R. Alvarez, J-F. Vicent, A. Zamora*: **"Improving the Message Expansion of the Tangle Hash Function"**. <br>LNCS 6694, 2011, pp 183-189 [link][lncs]
